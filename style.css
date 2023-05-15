@@ -68,7 +68,7 @@ ul {
 
 a:link,
 a:visited {
-  color: black;
+  color: #999;
   text-decoration: none;
 }
 
@@ -256,6 +256,7 @@ section {
 .iconic-skill span {
   color: black;
   font-size: 1rem;
+  font-weight: 600;
 }
 
 .iconic-skill:hover {
@@ -279,12 +280,19 @@ section {
 .skill-percent {
   display: block;
   text-align: right;
+  color: #009bde;
+  font-weight: 600;
+}
+
+.skill-name {
+  font-weight: 600;
 }
 
 .skill-bar {
   width: 100%;
   height: 10px;
   border-radius: 1000px;
+  border: 1px solid #ddd;
 }
 
 .photoshop > .skill-bar {
@@ -390,8 +398,9 @@ section {
   gap: 30px;
 }
 
-.active-portfolio {
+.active-portfolio a {
   font-weight: 700;
+  color: #000;
 }
 
 /* ************************************************** */
@@ -522,6 +531,7 @@ form {
 
 label {
   font-size: 24px;
+  font-weight: 600;
 }
 
 input,
@@ -539,6 +549,7 @@ input[type='submit'] {
   background-color: #87959e;
   color: #fff;
   font-size: 24px;
+  font-weight: 600;
 }
 
 .contact img {
