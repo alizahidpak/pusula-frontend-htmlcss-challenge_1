@@ -25,7 +25,7 @@
         <div class="logo"><b>GENTLE</b>MAN</div>
         <nav class="nav-bar flex">
           <ul class="flex">
-            <li><a href="#hero" class="nav-link">Home</a></li>
+            <li><a href="#" class="nav-link">Home</a></li>
             <li><a href="#about-me" class="nav-link">About Me</a></li>
             <li><a href="#resume" class="nav-link">Resume</a></li>
             <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
@@ -192,11 +192,13 @@
           <hr />
           <nav class="nav-portfolio flex">
             <ul class="flex">
-              <li class="active-portfolio"><a href="#">All Items</a></li>
-              <li><a href="#">Design</a></li>
-              <li><a href="#">Photography</a></li>
-              <li><a href="#">Illustration</a></li>
-              <li><a href="#">Vector</a></li>
+              <li class="active-portfolio">
+                <a href="#portfolio">All Items</a>
+              </li>
+              <li><a href="#portfolio">Design</a></li>
+              <li><a href="#portfolio">Photography</a></li>
+              <li><a href="#portfolio">Illustration</a></li>
+              <li><a href="#portfolio">Vector</a></li>
             </ul>
           </nav>
         </header>
@@ -322,7 +324,7 @@
         </header>
         <div class="grid cols-2">
           <img src="https://picsum.photos/300/400" alt="" />
-          <form action="#">
+          <form class="flex" action="#">
             <label for="name" class="form-label"
               >Name:
               <input
@@ -330,6 +332,7 @@
                 name="name"
                 id="name"
                 class="form-input"
+                placeholder="Alex Mahon"
                 required
               />
             </label>
@@ -340,25 +343,28 @@
                 name="email"
                 id="email"
                 class="form-input"
+                placeholder="contact@yourmail.com"
                 required
               />
             </label>
             <label for="message"
               >Your message:
-              <input
+              <textarea
                 type="text"
                 name="message"
                 id="message"
                 class="form-input"
+                rows="9"
+                placeholder="Type here..."
                 required
-              />
+              ></textarea>
             </label>
             <input type="submit" value="Send" />
           </form>
         </div>
       </div>
     </section>
-    <footer class="flex">
+    <footer id="footer" class="flex">
       <span>&COPY; 2023 Gentleman. All rights reserved.</span>
       <ul class="social-links flex">
         <li>
