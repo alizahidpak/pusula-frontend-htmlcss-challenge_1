@@ -550,6 +550,7 @@ input[type='submit'] {
   color: #fff;
   font-size: 24px;
   font-weight: 600;
+  cursor: pointer;
 }
 
 .contact img {
